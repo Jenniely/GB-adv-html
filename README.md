@@ -1,1 +1,1 @@
-# adv-html-lesson1
+# Repo for studying
