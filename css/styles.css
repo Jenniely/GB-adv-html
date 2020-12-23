@@ -323,12 +323,18 @@ body {
   line-height: 17px;
 }
 
+.footer {
+  background-color: #222222;
+  color: #FBFBFB;
+}
+
 .contacts {
   background-image: linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url("../img/contacts-background.jpg");
   height: 450px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: #222222;
 }
 
 .contacts__wrap {
@@ -411,11 +417,6 @@ body {
 
 .subscribe-form__submit:active {
   box-shadow: 4px 4px;
-}
-
-.footer {
-  background-color: #222222;
-  color: #FBFBFB;
 }
 
 .footer__wrap {
