@@ -341,6 +341,12 @@ body {
     line-height: 17px;
 }
 
+
+.footer {
+    background-color: $base-black;
+    color: $base-white;
+}
+
 .contacts {
     background-image:
         linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)),
@@ -349,17 +355,20 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: $base-black;
 }
 
 .contacts__wrap {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .contacts__item {
     text-align: center;
     padding-top: 98px;
     width: 50%;
+   
 }
 
 .contacts__img {
@@ -434,10 +443,6 @@ body {
     box-shadow: 4px 4px;
 }
 
-.footer {
-    background-color: $base-black;
-    color: $base-white;
-}
 
 .footer__wrap {
     display: flex;
