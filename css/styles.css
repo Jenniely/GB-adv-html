@@ -949,6 +949,17 @@ body {
   font-weight: 300;
   line-height: 17px;
   margin-top: 24px;
+  cursor: pointer;
+}
+
+.shipping-form__submit:hover {
+  border: 1px solid #6f6e6e;
+  color: #6f6e6e;
+}
+
+.shipping-form__submit:focus {
+  outline: none;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.13);
 }
 
 .cart__total-and-checkout {
