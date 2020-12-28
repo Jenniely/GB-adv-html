@@ -49,6 +49,20 @@ body {
   opacity: 0.5;
 }
 
+.header__button_cart::after {
+  content: "0";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #FBFBFB;
+  background: #F16D7F;
+  border-radius: 50%;
+  padding: 3px 7px;
+  position: relative;
+  left: -8px;
+  top: -20px;
+}
+
 .header__menu-list,
 .header__logo-container {
   display: flex;
@@ -61,6 +75,7 @@ body {
 
 .name {
   display: flex;
+  position: relative;
 }
 
 .name__header-span {
@@ -230,6 +245,7 @@ body {
 }
 
 .gallery__button {
+  font-family: Lato;
   color: #FBFBFB;
   background-color: transparent;
   border: 1px solid #FBFBFB;
@@ -268,6 +284,7 @@ body {
 }
 
 .featured__button {
+  font-family: Lato;
   margin-top: 50px;
   line-height: 50px;
   padding: 0 38px;
@@ -409,6 +426,10 @@ body {
   cursor: pointer;
 }
 
+.subscribe-form__submit:hover {
+  color: #F1E4E6;
+}
+
 .subscribe-form__submit:focus,
 .subscribe-form__submit:active {
   outline: 0;
@@ -446,6 +467,211 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+}
+
+.main-menu {
+  background-color: #FBFBFB;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  min-width: 150px;
+  height: 100%;
+  text-align: left;
+  padding-top: 37px;
+  padding-left: 33px;
+}
+
+.main-menu__header {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 20px 0 12px;
+  color: #F16D7F;
+}
+
+.main-menu__header_black {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  padding: 20px 0 4px;
+  color: #222222;
+}
+
+.main-menu__submenu-link {
+  text-decoration: none;
+  color: #6f6e6e;
+  padding-left: 1.5em;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.main-menu__submenu-link:hover {
+  color: #222222;
+}
+
+.main-menu__close-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  outline: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.main-menu__close-icon:hover {
+  opacity: 0.8;
+}
+
+.main-menu__close-icon:focus,
+.main-menu__close-icon:active path {
+  fill: #222222;
+}
+
+.catalog-header {
+  background-color: #F1E4E6;
+}
+
+.catalog-header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.catalog_header__title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #F16D7F;
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.breadcrumbs__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #636363;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  margin-right: 0.5em;
+}
+
+.breadcrumbs__link:hover {
+  color: #222222;
+}
+
+.breadcrumbs__link_active {
+  color: #F16D7F;
+  font-weight: 700;
+}
+
+.catalog {
+  text-align: center;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 51px 0;
+}
+
+.filter-group__toggle-button {
+  font-family: Lato;
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  word-spacing: 10px;
+}
+
+.filter-group__toggle-button:hover,
+.filter-group__toggle-button:hover path {
+  color: #6f6e6e;
+  fill: #6f6e6e;
+}
+
+.filter-group__hidden {
+  visibility: hidden;
+}
+
+.filter-group__nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.filter-group__button {
+  font-family: Lato;
+  outline: none;
+  background-color: transparent;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 0 14px;
+  color: #6f6e6e;
+}
+
+.filter-group__button svg {
+  padding-left: 0.5em;
+}
+
+.filter-group__button:hover,
+.filter-group__button:hover path {
+  color: #222222;
+  fill: #222222;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.pagination__wrap {
+  border: 1px solid #EBEBEB;
+  border-radius: 6px;
+  display: flex;
+  padding: 18px 16px 14px;
+}
+
+.pagination__link {
+  text-decoration: none;
+  padding: 7px 7px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  color: #EBEBEB;
+}
+
+.pagination__link_active {
+  color: #F16D7F;
+}
+
+.pagination__link:hover {
+  color: #6f6e6e;
+}
+
+.pagination__link:hover path {
+  fill: #6f6e6e;
 }
 
 /*# sourceMappingURL=styles.css.map */
