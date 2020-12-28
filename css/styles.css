@@ -447,7 +447,7 @@ body {
   padding: 21px 0;
 }
 
-.footer__social-icon {
+.footer__social-item {
   display: inline-block;
   background-color: #FBFBFB;
   text-align: center;
@@ -455,11 +455,11 @@ body {
   padding: 8px;
 }
 
-.footer__social-icon:hover {
+.footer__social-item:hover {
   background-color: #F16D7F;
 }
 
-.footer__social-icon:hover path {
+.footer__social-item:hover path {
   fill: white;
 }
 
