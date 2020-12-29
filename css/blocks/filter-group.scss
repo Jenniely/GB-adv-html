@@ -1,0 +1,59 @@
+.filter-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 51px 0;
+}
+
+.filter-group__toggle-button {
+    font-family: Lato;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    word-spacing: 10px;
+}
+
+.filter-group__toggle-button:hover,
+.filter-group__toggle-button:hover path {
+    color: $base-gray;
+    fill: $base-gray;
+}
+
+.filter-group__hidden {
+    visibility: hidden;
+}
+
+.filter-group__nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.filter-group__button {
+    font-family: Lato;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 0 14px;
+    color: $base-gray;
+}
+
+.filter-group__button svg {
+    padding-left: 0.5em;
+}
+
+.filter-group__button:hover,
+.filter-group__button:hover path {
+    color: $base-black;
+    fill: $base-black;
+}

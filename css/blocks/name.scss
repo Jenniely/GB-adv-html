@@ -1,0 +1,48 @@
+.name {
+    display: flex;
+    position: relative;
+}
+
+.name__header-span {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.name__header-span-color {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    color: $pink-color;
+}
+
+.name__header {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.name__content {
+    width: 100%;
+    padding: 335px 0 0 64px;
+    color: $base-black;
+    background-color: $pink-background;
+}
+
+.name__header {
+    position: relative;
+    padding: 0 0 0 28px;
+}
+
+.name__header::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 100%;
+    background-color: $pink-color;
+    left: -12px;
+}

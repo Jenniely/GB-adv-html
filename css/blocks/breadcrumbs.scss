@@ -1,0 +1,25 @@
+.breadcrumbs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.breadcrumbs__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #636363;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-right: 0.5em;
+}
+
+.breadcrumbs__link:hover {
+    color: $base-black;
+}
+
+.breadcrumbs__link_active {
+    color: $pink-color;
+    font-weight: 700;
+}

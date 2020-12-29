@@ -1,0 +1,31 @@
+.registration-text {
+    max-width: 650px;
+}
+
+.registration-text__title {
+
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 29px;
+    padding-bottom: 1.5em;
+}
+
+.registration-text__body {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.registration-text__list {
+    list-style-image: url('../img/tick-list.jpg');
+    padding-left: 25px;
+}
+
+.registration-text__item {
+
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    padding: 15px 25px 0;
+}
