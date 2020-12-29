@@ -1,0 +1,40 @@
+.contacts {
+    background-image:
+        linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)),
+        url('../img/contacts-background.jpg');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $base-black;
+}
+
+.contacts__wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contacts__item {
+    text-align: center;
+    padding-top: 98px;
+    width: 50%;
+
+}
+
+.contacts__img {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+}
+
+.contacts__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 30px 100px 0;
+}
+
+.contacts__text-italic {
+    font-style: italic;
+}

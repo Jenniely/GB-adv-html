@@ -1,0 +1,18 @@
+@mixin flex-center-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin font($font-size, $line-height, $font-weight: 400, $font-style: normal) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  font-style: $font-style;
+}
+
+@mixin tablet {
+  @media (min-width: 768px) and (max-width: 1599px) {
+    @content;
+  }
+}

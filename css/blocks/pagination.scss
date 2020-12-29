@@ -1,0 +1,33 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.pagination__wrap {
+    border: 1px solid #EBEBEB;
+    border-radius: 6px;
+    display: flex;
+    padding: 18px 16px 14px;
+}
+
+.pagination__link {
+    text-decoration: none;
+    padding: 7px 7px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #EBEBEB;
+}
+
+.pagination__link_active {
+    color: $pink-color;
+}
+
+.pagination__link:hover {
+    color: $base-gray;
+}
+
+.pagination__link:hover path {
+    fill: $base-gray;
+}

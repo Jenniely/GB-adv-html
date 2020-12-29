@@ -1,0 +1,83 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery__item {
+    width: 360px;
+    height: 580px;
+    background-color: #F8F8F8;
+    margin: 15px 0;
+    text-align: left;
+    position: relative;
+}
+
+.gallery__item_with-background {
+    background-color: $pink-background;
+    padding: 7px 0;
+    text-align: center;
+}
+
+.gallery__hover-effect {
+    position: absolute;
+    height: 420px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(58, 56, 56, 0.8);
+    ;
+    color: $base-white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__item:hover .gallery__hover-effect {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gallery__button {
+    font-family: Lato;
+    color: $base-white;
+    background-color: transparent;
+    border: 1px solid $base-white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.gallery__content {
+    padding: 25px 17px;
+}
+
+.gallery__header {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.gallery__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-bottom: 18px;
+
+}
+
+
+.gallery__price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: $pink-color;
+}
