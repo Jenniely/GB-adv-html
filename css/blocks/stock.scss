@@ -19,6 +19,18 @@
     align-items: center;
     color: $base-white;
     cursor: pointer;
+
+    &:not(.stock__item--last) {
+        margin: 0 0 30px;
+        
+        @include tablet {
+            margin: 0 0 19px;
+        }
+    }
+
+    @include tablet {
+        width: 31.5%;
+    }
 }
 
 .stock__item--last {

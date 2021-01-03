@@ -16,3 +16,14 @@
     color: $pink-color;
     text-transform: uppercase;
 }
+
+@media (max-width: $mobile-width) {
+    .page-header__wrap {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .page_header__title {
+        padding-bottom: 32px;
+    }
+}

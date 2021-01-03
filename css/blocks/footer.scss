@@ -4,9 +4,7 @@
 }
 
 .footer__wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex-center-space-between;
     padding: 21px 0;
 }
 
@@ -31,4 +29,15 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
+}
+
+@media (max-width: 570px) {
+    .footer__wrap {
+        flex-direction: column;
+    }
+
+    .footer__social {
+        order: -1;
+        padding-bottom: 40px;
+    }
 }
