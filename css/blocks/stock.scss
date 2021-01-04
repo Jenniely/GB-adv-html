@@ -76,3 +76,9 @@
     text-transform: uppercase;
     color: $pink-color;
 }
+
+@media (max-width: $tablet-width) {
+    .stock__list {
+        justify-content: space-around;
+    }
+}

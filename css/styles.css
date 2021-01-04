@@ -283,6 +283,11 @@ body {
   color: #F16D7F;
 }
 
+@media (max-width: 768px) {
+  .stock__list {
+    justify-content: space-around;
+  }
+}
 .featured {
   text-align: center;
 }
