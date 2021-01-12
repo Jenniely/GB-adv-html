@@ -22,15 +22,8 @@
 
     &:not(.stock__item--last) {
         margin: 0 0 30px;
-        
-        @include tablet {
-            margin: 0 0 19px;
-        }
     }
 
-    @include tablet {
-        width: 31.5%;
-    }
 }
 
 .stock__item--last {
@@ -75,6 +68,17 @@
     line-height: 30px;
     text-transform: uppercase;
     color: $pink-color;
+}
+
+@media (min-width: 768px) and (max-width: 1599px) {
+    .stock__item {
+        width: 31.5%;
+    }
+
+    .stock__item:not(.stock__item--last) {
+        margin: 0 0 19px;
+    }
+
 }
 
 @media (max-width: $tablet-width) {
