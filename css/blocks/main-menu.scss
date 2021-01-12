@@ -1,15 +1,15 @@
 .main-menu {
+    box-sizing: border-box;
     background-color: $base-white;
     position: absolute;
     top: 0;
     right: 0;
     width: 15%;
     min-width: 150px;
-    height: 100%;
     text-align: left;
-    padding-top: 37px;
-    padding-left: 33px;
+    padding: 37px 0 37px 33px;
     z-index: 1;
+    height: 100%;
 }
 
 .main-menu__header {
@@ -59,4 +59,10 @@
 .main-menu__close-icon:focus,
 .main-menu__close-icon:active path {
     fill: $base-black;
+}
+
+@media (max-width: 1260px) {
+    .main-menu {
+        display: none;
+    }
 }

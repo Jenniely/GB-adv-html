@@ -2,7 +2,7 @@
     background-image:
         linear-gradient(rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)),
         url('../img/contacts-background.jpg');
-    height: 450px;
+    min-height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,14 +12,12 @@
 .contacts__wrap {
     display: flex;
     justify-content: space-between;
-
 }
 
 .contacts__item {
     text-align: center;
     padding-top: 98px;
     width: 50%;
-
 }
 
 .contacts__img {
@@ -37,4 +35,29 @@
 
 .contacts__text-italic {
     font-style: italic;
+}
+
+@media (max-width: $tablet-width) {
+    .contacts__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts__item {
+        padding-top: 50px;
+    }
+
+    .contacts__text {
+        padding: 0;
+    }
+
+@media (max-width: 580px) {
+    .contacts__item {
+        width: 95%;
+    }
+
+    .contacts__text {
+        font-size: 18px;
+    }
+}
 }

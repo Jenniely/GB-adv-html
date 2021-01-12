@@ -81,3 +81,11 @@
     line-height: 19px;
     color: $pink-color;
 }
+
+@media (max-width: 1125px) {
+
+    .gallery {
+        justify-content: space-around;
+    }
+    
+}

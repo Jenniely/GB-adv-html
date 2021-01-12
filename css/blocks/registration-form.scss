@@ -25,18 +25,12 @@
     background: $pink-color;
 }
 
-.registration__wrap {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 64px;
-    padding-bottom: 90px;
-}
-
 .registration-form {
     max-width: 360px;
 }
 
 .registration-form__input {
+    box-sizing: border-box;
     width: 100%;
     margin: 10px 0;
     line-height: 45px;
@@ -105,4 +99,13 @@
 .registration-form__submit:active {
     outline: 0;
     background-color: darken($pink-color, 10%);
+}
+
+@media (max-width: 767px) {
+
+    
+.registration-form {
+    margin-bottom: 40px;
+}
+    
 }

@@ -57,3 +57,9 @@
     color: $base-black;
     fill: $base-black;
 }
+
+@media (max-width: $tablet-width) {
+    .filter-group__hidden {
+        display: none;
+    }
+}
