@@ -6,7 +6,7 @@
 }
 
 .filter-group__toggle-button {
-    font-family: Lato;
+    font-family: $lato-font;
     outline: none;
     background-color: transparent;
     border: 0;
@@ -36,7 +36,7 @@
 }
 
 .filter-group__button {
-    font-family: Lato;
+    font-family: $lato-font;
     outline: none;
     background-color: transparent;
     border: 0;
@@ -52,9 +52,11 @@
     padding-left: 0.5em;
 }
 
-.filter-group__button:hover,
-.filter-group__button:hover path {
+.filter-group__button:hover {
     color: $base-black;
+}
+
+.filter-group__button:hover svg {
     fill: $base-black;
 }
 

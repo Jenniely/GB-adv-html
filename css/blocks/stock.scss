@@ -32,24 +32,28 @@
 }
 
 .stock__item-women {
+    background-color: $light-gray;
     background-image:
         linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
         url('../img/promo-women.png');
 }
 
 .stock__item-men {
+    background-color: $light-gray;
     background-image:
         linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
         url('../img/promo-men.png');
 }
 
 .stock__item-kids {
+    background-color: $light-gray;
     background-image:
         linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
         url('../img/promo-kids.png');
 }
 
 .stock__item-accessories {
+    background-color: $light-gray;
     background-image:
         linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)),
         url('../img/promo-accesories.png');
@@ -73,6 +77,10 @@
 @media (min-width: 768px) and (max-width: 1599px) {
     .stock__item {
         width: 31.5%;
+    }
+
+    .stock__item--last {
+        width: 100%;
     }
 
     .stock__item:not(.stock__item--last) {
