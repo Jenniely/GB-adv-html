@@ -25,7 +25,7 @@
 }
 
 .shipping-form__input::placeholder {
-    font-family: Lato;
+    font-family: $lato-font;
     font-weight: 300;
     line-height: 16px;
     font-size: 16px;
@@ -65,7 +65,4 @@
     }
 }
 
-@media (max-width: 400px) {
-
-}
-
+@media (max-width: 400px) {}

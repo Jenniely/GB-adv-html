@@ -1,4 +1,4 @@
-.registration__wrap {
+.registration {
     display: flex;
     justify-content: space-between;
     padding-top: 64px;
@@ -6,9 +6,9 @@
 }
 
 @media (max-width: 767px) {
-    .registration__wrap {
+    .registration {
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
