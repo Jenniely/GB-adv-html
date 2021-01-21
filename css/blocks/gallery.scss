@@ -18,12 +18,14 @@
     margin: 15px 0;
     text-align: left;
     position: relative;
+    transition: visibility 1.5s, opacity 1.5s;
 }
 
 .gallery__item_boot {
     width: 360px;
     background-color: #F8F8F8;
     position: relative;
+    transition: visibility 1.5s, opacity 1.5s;
 }
 
 .gallery__item_with-background {
@@ -39,7 +41,6 @@
     top: 0;
     left: 0;
     background-color: rgba(58, 56, 56, 0.8);
-    ;
     color: $base-white;
     visibility: hidden;
     opacity: 0;
@@ -47,6 +48,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gallery__item:hover .gallery__hover-effect { 
+    visibility: visible;
+    opacity: 1;
 }
 
 .gallery__item_boot:hover .gallery__hover-effect {

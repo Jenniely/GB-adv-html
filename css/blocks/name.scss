@@ -14,6 +14,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: 38px;
+    animation: reveal 7s infinite;
+}
+
+.name__header-span-main {
+    animation: showup 7s infinite;
 }
 
 .name__header-span-color {
@@ -22,6 +27,7 @@
     font-weight: 700;
     line-height: 38px;
     color: $pink-color;
+    animation: slidein 7s infinite;
 }
 
 .name__header {
