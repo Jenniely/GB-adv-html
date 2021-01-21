@@ -152,10 +152,18 @@ body {
     margin: 0 auto;
 }
 
+.container_boot {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 
 @media (max-width: 1140px) {
     .container {
         width: 96%;
-        ;
+    }
+
+    .container_boot {
+        width: 96%;
     }
 }
