@@ -37,10 +37,13 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
+    transition: color 1s,  background-color 1s;
 }
 
 .main-menu__submenu-link:hover {
     color: $base-black;
+    background-color: $pink-background;
+    
 }
 
 .main-menu__close-icon {
